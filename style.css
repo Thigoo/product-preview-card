@@ -151,7 +151,8 @@ button:hover {
     .container {
         display: block;
         height: 90%;  
-        border-radius: 1rem;      
+        border-radius: 1rem;  
+        margin: 1rem;    
     }
 
     .left {
@@ -169,11 +170,16 @@ button:hover {
     }
 
     .right {
+        margin: 1rem 1rem 0 0 ;
         height: 60%;
         width: 100%;
     }
+    
+    button {
+        margin-right: 2rem;
+    }
 
-    .attribution {
+    .attribution {        
         position: absolute;
         bottom: 0;
         text-align: center;
