@@ -143,7 +143,7 @@ button:hover {
     color:  hsl(159, 36%, 46%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 416px) {
     body {
         padding: 1rem;        
     }
